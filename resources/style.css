@@ -64,10 +64,34 @@ a{
   width: 1200px;
 }
 
+/*Tea Section*/
+
 .tea{
   display: flex;
+  flex-wrap: wrap;
   Width: 1000px;
   justify-content: center;
   padding: 70px;
   margin: auto;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.items{
+  display: inline;
+  width: 300px;
+  margin: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.items img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
 }
