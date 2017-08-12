@@ -105,7 +105,6 @@ a{
 }
 
 .location{
-  display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
@@ -122,4 +121,18 @@ a{
   background-color: black;
   width: 300px;
   margin: 5px 20px;
+}
+
+.location h2{
+  padding-top: 70px;
+  margin: 5px auto;
+}
+
+.contact{
+  text-align: center;
+  height: 200px;
+}
+
+footer{
+  margin-left: 20px;
 }
